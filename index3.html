@@ -1,0 +1,234 @@
+<!DOCTYPE html><!--22061067_신혜원-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body{
+        font-family: Arial;
+        padding: 10px;
+        background: #2d2d2d;
+      }
+      .body_p{
+        font-family: 나눔스퀘어_ac light;
+        color: white;
+        text-align: center;
+        font-size: 21px;
+        line-height: 2em;
+      }
+
+     .header{
+        padding: 1px;
+        text-align: center;
+        width: 400px;
+        height: 80px;
+        margin: 0 auto;
+      }
+      .header h1{
+        font-size: 50px;
+      }
+
+      .topnav{
+        overflow: hidden;
+        /*background-color: #333;*/
+      }
+      .topnav a{
+        float: center;
+        display: inline;
+        color: #fff;
+        text-align: center;
+        padding: 0px 16px;
+        text-decoration: none;
+      }
+
+      .topnav a:hover{
+        background-color: none;
+        color: #e3b8b8;
+      }
+      .leftcolumn{
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+      }
+      .rightcolumn{
+        float: left;
+        width: 0%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+      .fakeimg{
+        background-color: #aaa;
+        width: 50%;
+        padding: 0px;
+      }
+      .firstimg{
+        width: 100%
+        /*text-align: center;*/
+        margin-left:
+      }
+
+      .card{
+        background-color: none;
+        padding: 10px;
+        margin-top: 0px;
+        text-align: center;
+      }
+      .name{
+        background-color: none;
+        padding: 10px;
+        margin-top: 0px;
+        text-align: center;
+      }
+      .name h1{
+        font-size : 100px;
+        text-align : center;
+        color : #e3b8b8;
+        font-family : trebuchetms;
+        margin-top: 90px;
+      }
+
+
+      .card h1{
+        font-family: 나눔스퀘어ac;
+        color: white;
+        text-align : center;
+        font-size : 50px;
+      }
+      #p{
+        font-family: 나눔스퀘어ac;
+        color: #e3b8b8;
+        text-align : center;
+        font-size : 50px;
+      }
+
+      .row:after{
+        content:"";
+        display: table;
+        clear: both;
+      }
+      .footer{
+        padding: 20px;
+        text-align: center;
+        background: #5d5c5c;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 800px)
+       {
+         .leftcolumn, .rightcolumn{
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px){
+        .topnav a{
+          float: none;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width : 1500px){
+        .card{
+          width:100%;
+        }
+      }
+      @media screen and (max-width : 3000px){
+        .card h1{
+          float: none;
+          width: 100%;
+        }
+      }
+      @media screen and (max-width : 900px){
+        .img{
+          width: 100%;
+        }
+      }
+      @media screen and (max-width : 1200px){
+        .footer{
+          width: 100%;
+        }
+      }
+      .img{
+        padding: 0;
+      }
+
+
+      #address{
+        float: center;
+        /*margin: 60px 30px 0 0;*/
+        color: #e3b8b8;
+        /*border: solid 1px red;*/
+      }
+     hr{
+      width: 100px;
+      color: gray;
+      text-align: center;
+    }
+    ul{
+      margin-top: 1px;
+    }
+    li{
+      list-style-type: none;
+      display: inline;
+
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html"><img src='./img/logo.png'width='200'></a>
+    </div>
+    <div class="topnav">
+      <a href="index2.html">PROGRAMMING</a>
+      <a href="index3.html">DESIGN</a>
+      <a href="index4.html" style="float:right">CONNECT</a>
+      <a href="index5.html" style="float:right">VIDEO</a>
+
+    </div>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="name">
+            <h1>DESIGN</h1>
+        </div>
+        <div class="card">
+          <!--div class="firstimg" style="height:2800px;"-->
+            <section>
+              <ul>
+                <li><img class='img' src='img/1.jpg'width="300"></li>
+                <li><img class='img' src='img/2.jpg'width="300"></li>
+                <li><img class='img' src='img/3.jpg'width="300"></li>
+              </ul>
+              <ul>
+                <li><img class='img' src='img/4.jpg'width="300"></li>
+                <li><img class='img' src='img/5.jpg'width="300"></li>
+                <li><img class='img' src='img/6.jpg'width="300"></li>
+              </ul>
+              <ul>
+                <li><img class='img' src='img/7.jpg'width="300"></li>
+                <li><img class='img' src='img/8.jpg'width="300"></li>
+                <li><img class='img' src='img/9.jpg'width="300"></li>
+              </ul>
+            </section>
+            <aside>
+              <br><h1>Punk In The K-POP</h1><hr>
+              <p class='body_p'>펑크를 주제로 카드뉴스를 제작한 프로젝트 입니다.<br>
+               프로젝트는'한국대중 가요에서 느낄 수 있는 펑크 정신'이라는 소주제로<br>
+               사회를 비판하는 메세지를 담은 한국 노래를 선정하여 포스터 제작을 하였습니다.<br>
+             제작한 포스터와 설명을 추가하여 카드뉴스를 제작하였습니다.</p>
+            </aside>
+            <a href="index3_1.html"><img src='img/button2.png'width='80'></a>
+          </div>
+           </div>
+          </div>
+        <!--/div-->
+    <div class="footer">
+      <ul id='address'>
+        Project by Hyewon Shin
+      </ul>
+    </div>
+
+  </body>
+</html>
